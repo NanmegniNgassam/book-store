@@ -6,10 +6,18 @@ public class Book {
     private String author;
     private float price;
 
-    public Book(String title, String author, float price) {
+    Book(String title, String author, float price) {
+        Book.booksCount++;
         this.title = title;
         this.author = author;
         this.price = price;
+    }
+
+    Book(String title, String author) {
+        Book.booksCount++;
+        this.title = title;
+        this.author = author;
+        this.price = 6.99f;
     }
 
     public String getTitle() {
