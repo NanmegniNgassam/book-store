@@ -1,7 +1,7 @@
 package com.gillesngassam;
 
 public class Book {
-    public static int booksCount = 0;
+    protected static int booksCount = 0;
     private String title;
     private String author;
     private float price;
