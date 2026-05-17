@@ -1,5 +1,3 @@
 package com.gillesngassam;
 
-public class BookStore {
-
-}
+public class BookStore {}

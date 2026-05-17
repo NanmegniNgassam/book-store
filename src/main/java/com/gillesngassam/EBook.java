@@ -1,14 +1,14 @@
 package com.gillesngassam;
 
 public class EBook extends Book {
-    private EBookFormat format;
+  private EBookFormat format;
 
-    EBook(String title, String author, float price, EBookFormat format) {
-        super(title, author, price);
-        this.format = format;
-    }
+  EBook(String title, String author, float price, EBookFormat format) {
+    super(title, author, price);
+    this.format = format;
+  }
 
-    public EBookFormat getFormat() {
-        return format;
-    }
+  public EBookFormat getFormat() {
+    return format;
+  }
 }

@@ -12,8 +12,9 @@ public class EBookTest {
 
   @Test
   void should_AssignTheRightFormat_When_InstantiatingEBook() {
-    final EBook greatGatsby = new EBook(GREAT_GATSBY_TITLE, GREAT_GATSBY_AUTHOR, GREAT_GATSBY_PRICE,
-        GREAT_GATSBY_BOOK_FORMAT);
+    final EBook greatGatsby =
+        new EBook(
+            GREAT_GATSBY_TITLE, GREAT_GATSBY_AUTHOR, GREAT_GATSBY_PRICE, GREAT_GATSBY_BOOK_FORMAT);
 
     assertEquals(EBookFormat.PDF, greatGatsby.getFormat());
   }
